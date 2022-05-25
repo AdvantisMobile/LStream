@@ -1,0 +1,59 @@
+.header-cont{
+    height: 300px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    .item-cont{
+        padding: 11px;
+        font-size: 20px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}
+.main-cont{
+    height: 100%;
+    margin-top: -200px;
+    z-index: 999;
+    padding: 16px;
+    .cont{
+        background-color: white;
+        margin-top: -7 0px;
+        height: 100%;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        padding: 20px 10px;
+        text-align: center;
+        .title{
+            font-size: 20px;
+            font-weight: bold;
+            color: green;
+        }
+        .subTitle{
+            font-size: 12px;
+            color: darkgray;
+            margin-top: 5px;
+        }
+        ion-item{
+            padding: 10px 0px;
+            border-bottom: 1px solid lightgray;
+            --inner-border-width: 0px;
+        }
+        ion-checkbox{
+            --border-radius: 0%;
+            width: 20px;
+            height: 20px;
+            --checkmark-color: green;
+            --background-checked: white;
+            --border-color-checked: lightgray;
+        }
+        ion-toggle{
+            --background-checked: green;
+            --handle-width: calc(20px - (2px * 2));
+            --handle-height: calc(20px - (2px * 2));
+            --handle-background-checked: white;
+            width: 40px;
+            height: 20px;
+        }
+    }
+}

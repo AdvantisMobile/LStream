@@ -1,0 +1,15 @@
+<div class="url-cont">
+  <ion-input [(ngModel)]="urlLink" type="url" (ionChange) = "getData($event)" placeholder="Ingrese URL allil"></ion-input>
+  <ion-row class="btn-row">
+    <ion-col>
+      <ion-button (click)="onCancel()" style="--background: url(assets/imgs/btn-bg1.png) no-repeat center center / cover;">
+        <ion-label>{{'list.cancel' | translate}}</ion-label>
+      </ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="onOk()" style="--background: url(assets/imgs/btn-bg1.png) no-repeat center center / cover;">
+        <ion-label>{{'list.ok' | translate}}</ion-label>
+      </ion-button>
+    </ion-col>
+  </ion-row>
+</div>

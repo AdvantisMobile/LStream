@@ -1,0 +1,50 @@
+{
+    "splash":{
+        "title":"Welcome to L-Stream"
+    },
+    "list":{
+        "search":"Search for services",
+        "status":"There are no available list",
+        "selectTitle":"Select an option",
+        "url":"Add list from URL",
+        "qr":"Add list from QR",
+        "file":"Add list from File",
+        "urlSearch":"Enter URL There",
+        "ok":"Okay",
+        "cancel":"Cancel"
+    },
+    "play":{
+        "search":"Search or Type URL there",
+        "btn":"Auto Detect URL",
+        "history":"History"
+    },
+    "side":{
+        "settings":"Settings",
+        "help":"Help",
+        "rate":"Rate",
+        "remove":"Remove Ads",
+        "premium":"Purchase Premium",
+        "adsTitle":"Watch Video To Remove Ads For 60 Minutes",
+        "adsContent":"You Can Watch Videos As Many Times As You Want to Accumulate More Minutes",
+        "playTitle":"LStream Video Player",
+        "address":"Address",
+        "gPayContent":"By Tapping '1-Tap Buy', you accept the following Google Payments Terms of Service:Term of Services -Android Parovacy Notice.",
+        "tap":"1-Tapy Buy",
+        "tax":"Tax"
+    },
+    "settings":{
+        "language":"Select Language",
+        "disableSync":"Disable auto-sync",
+        "deleteList":"Delete all Lists",
+        "backup":"Backup List",
+        "restore":"Restore list",
+        "remove":"Remove backups",
+        "search":"Search engine",
+        "searchContent":"Set search engine of browser",
+        "auto":"Auto Sync",
+        "google":"Google Play Services",
+        "English":"English",
+        "Spanish":"Spanish"
+    }
+
+}

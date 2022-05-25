@@ -1,0 +1,24 @@
+.url-cont{
+    ion-input{
+        height: 50px;
+        background: white;
+        border-radius: 20px;
+        --padding-start: 15px;
+        font-size: 15px;
+        color: black;
+        letter-spacing: 1.0px;
+    }
+    .btn-row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        ion-button{
+            width: 70%;
+            height: 60px;
+            --box-shadow: none;
+            margin-left: 15%;
+            text-transform: initial;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+<ion-app>
+  <ion-split-pane contentId="main-content">
+      <ion-menu contentId="main-content">
+          <ion-content style="background-image: url('assets/imgs/side-background.png'); --background: url(assets/imgs/side-background.png) no-repeat center center / cover;">
+            <ion-list lines="none">
+              <ion-list-header style="color: white;">
+                <img src="assets/imgs/logo.png" style="width: 120px;height: 120px;">
+                <div>
+                  <p style="margin: 0px;">LStream</p>
+                  <div style="font-size: 12px;margin-left: 5px;font-weight: 100;">Version {{versionCode}}</div>
+                </div>
+                
+              </ion-list-header>
+              <ion-menu-toggle autoHide="false" *ngFor="let p of appPages; let i = index" style="margin-top: 20px;">
+                <ion-item [routerLink]="p.url" routerLinkActive="selected" routerDirection="root" detail="false" lines="inset">
+                  <ion-icon slot="start" [name]="p.icon + '-outline'" style="color: white; font-size: 35px; font-weight: bold;  "></ion-icon>
+                  <ion-label style="color: white; font-weight: bold;">
+                    {{p.value}}
+                  </ion-label>
+                </ion-item>
+              </ion-menu-toggle>
+              <!-- <ion-menu-toggle autoHide="false" style="margin-top: 20px;"> -->
+                <ion-item lines="inset" (click)="removeAds()">
+                  <ion-icon slot="start" [name]="'close-circle-outline'" style="color: white; font-size: 35px; font-weight: bold;  "></ion-icon>
+                  <ion-label style="color: white; font-weight: bold;">
+                     {{'side.remove' | translate}}
+                  </ion-label>
+                </ion-item>
+              <!-- </ion-menu-toggle> -->
+              
+              <!-- <ion-menu-toggle autoHide="false" style="margin-top: 20px;"> -->
+                <ion-item  lines="inset" (click)="premium()">
+                  <ion-icon slot="start" [name]="'ribbon-outline'" style="color: white; font-size: 35px; font-weight: bold;  "></ion-icon>
+                  <ion-label style="color: white; font-weight: bold;">
+                    {{'side.premium' | translate}}
+                  </ion-label>
+                </ion-item>
+              <!-- </ion-menu-toggle> -->
+
+              
+              
+            </ion-list>
+
+             
+          </ion-content>
+      </ion-menu>
+      <ion-router-outlet id="main-content"></ion-router-outlet>
+  </ion-split-pane>
+  
+</ion-app>

@@ -1,0 +1,31 @@
+.header{
+    height: 60px;
+    ion-searchbar{
+        --border-radius: 15px;
+    }
+}
+.empty-content, .list-content{
+    width: 100%;
+    height: calc(100% - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .txt-cont{
+        text-align: center;
+        margin-top: -60px;
+        font-size: 20px;
+        color: darkgray;
+    }
+}
+.add-btn-cont{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.plus-btn{
+    width: 15%;
+    height: 15%;
+
+}

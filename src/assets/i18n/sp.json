@@ -1,0 +1,50 @@
+{
+    "splash":{
+        "title":"Bienvenido a Lstream"
+    },
+    "list":{
+        "search":"Buscar servicios",
+        "status":"No hay lista disponible",
+        "selectTitle":"Seleccione una opción",
+        "url":"Añadir lista desde URL",
+        "qr":"Añadir lista desde QR",
+        "file":"Añadir lista desde archivo",
+        "urlSearch":"Ingrese URL alli",
+        "ok":"Si",
+        "cancel":"Cancelar"
+    },
+    "play":{
+        "search":"Buscar o escribir URL alli",
+        "btn":"URL de detección automática",
+        "history":"Historia"
+    },
+    "side":{
+        "settings":"Adjustes",
+        "help":"Ayudar",
+        "rate":"Velocidad",
+        "remove":"Quitar anuncios",
+        "premium":"Compra Premium",
+        "adsTitle":"Ver video para eliminar Anuncios durante 60 minutos",
+        "adsContent":"Puedes ver videos tantas veces Como quieras acumular Mas minutos",
+        "playTitle":"LStream:Reproductor de video",
+        "address":"Direccion",
+        "gPayContent":"Al tocar 'Comprar con 1 toque', aceptas los siguientes Google Condiciones de servico de pagos: Condiciones de servicio- Android aviso de privacidad",
+        "tap":"1-Tapy Buy",
+        "tax":"impuesto"
+    },
+    "settings":{
+        "language":"Ajustes",
+        "disableSync":"Deshabilitar la sincronizacion automatica",
+        "deleteList":"Eliminar todas las listas",
+        "backup":"lista de copia de seguridad",
+        "restore":"Lista de restauracion",
+        "remove":"Eliminar copias de seguridad",
+        "search":"Buscador",
+        "searchContent":"Establecer el motor de busqueda del navegador",
+        "auto":"Sincronizacion automatica",
+        "google":"servicios de juego de google",
+        "English":"English",
+        "Spanish":"Spanish"
+    }
+
+}

@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title style="margin-left: -14px;">L-Stream</ion-title>
+    <ion-buttons slot="end" (click)="PlayVideo()" style="margin-right: 20px;">
+      <img src="assets/imgs/video-select.png" />
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="header">
+    <ion-searchbar [placeholder]="'play.search' | translate" showCancelButton="focus" animated></ion-searchbar>
+    <ion-button style="--background: url(assets/imgs/btn-bg.png) no-repeat center center / cover;"><ion-label>{{'play.btn' | translate}}</ion-label></ion-button>
+  </div>
+  <div class="history">
+      <ion-label>{{'play.history' | translate}}</ion-label>
+      <ion-list line="none">
+        <ion-item *ngFor="let video of videos;let i = index">
+          <ion-col>
+            <ion-label>{{video.title}}</ion-label>
+            <div>
+              <p>{{video.url}}</p>
+            </div>
+          </ion-col>
+        </ion-item>
+      </ion-list>
+  </div>
+
+</ion-content>
